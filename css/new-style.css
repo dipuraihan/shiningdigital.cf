@@ -1,0 +1,159 @@
+@media (max-width: 1600px){
+.container {
+    max-width: 1200px;
+}
+}
+
+body {
+    background: #fff;
+}
+.foliox_tm_all_wrap {
+    padding: 40px 0 40px;
+    background: #fff;
+}
+
+/* menu */
+.foliox_tm_header .menu ul li a {
+    color: #6928e6;
+}
+.foliox_tm_header.animate .menu ul li a {
+    color: #fff;
+}
+.foliox_tm_header .menu ul li a:hover {
+    color: #6928e6;
+}
+
+
+.foliox_tm_header .menu ul li.current a {
+    color: #6928e6;
+}
+
+
+
+/* portfolio */
+.foliox_tm_portfolio {
+    margin-bottom: 60px;
+}
+.foliox_tm_main_title span {
+    color: #6928e6;
+}
+.foliox_tm_main_title h2 {
+    color: #6928e6;
+    font-size: 52px;
+}
+.home .foliox_tm_main_title h2 {
+    color: #6928e6;
+    font-size: 80px;;
+}
+.foliox_tm_portfolio .portfolio_filter {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.foliox_tm_portfolio .portfolio_list ul li {
+    margin: 0 0 20px;
+    padding-left: 20px;
+}
+.foliox_tm_portfolio .portfolio_list ul li .list_inner {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.foliox_tm_portfolio .portfolio_filter ul li a {
+    color: #6928e6;
+}
+.foliox_tm_portfolio .portfolio_filter ul li a:hover,
+.foliox_tm_portfolio .portfolio_filter ul li a.current {
+    color: #6928e6;
+}
+
+.foliox_tm_portfolio .portfolio_list ul li .details,
+.foliox_tm_portfolio .portfolio_list ul li .details span {
+    color: #fff;
+    text-align: center;
+}
+
+
+.mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 100%;
+}
+ .foliox_tm_portfolio .portfolio_list ul li .image {
+    height: 50px;
+}
+.foliox_tm_portfolio .portfolio_list ul li .image .main {
+    height: 200px;
+    width: 100%;
+    background-position: top;
+    height: 50px;
+    text-align: center;
+    top: 15px;
+}
+.home .foliox_tm_portfolio .portfolio_list ul li .image {
+    height: 400px;
+}
+.home .foliox_tm_portfolio .portfolio_list ul li .image .main {
+    height: 400px;
+}
+.foliox_tm_portfolio .portfolio_list ul li {
+    width: 20%;
+}
+.home .foliox_tm_portfolio .portfolio_list ul li {
+    width: 33.3333%;
+}
+
+.image h4 {
+    color: #6928e6;
+    font-size: 18px;
+}
+
+
+
+
+/* // all category footer  */
+
+.all_category h2 {
+    color: #1e1345;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.all_category .more ul {
+    text-align: center;
+}
+.all_category .more ul li {
+    display: inline-block;
+}
+.all_category .more ul li a {
+    padding: 5px 15px;
+    margin: 6px;
+    background: #1e1345;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+/* to top  */
+.progressbar .text {
+    color: #1e1345;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+}
+.progressbar .line {
+    background-color: #1e1345;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .home .foliox_tm_portfolio .portfolio_list ul li {
+        width: 100%;
+    }
+    .foliox_tm_portfolio .portfolio_list ul li {
+        width: 32%;
+    }
+    .mfp-iframe-holder .mfp-content {
+        height: 100%;
+    }
+}
+
